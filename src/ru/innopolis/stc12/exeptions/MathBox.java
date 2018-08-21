@@ -33,9 +33,9 @@ public class MathBox {
             result = a / b;
             return result;
         } catch (ArithmeticException e) {
-            throw new ArithmeticException();
+            throw e;
         } catch (Exception e) {
-            throw new Exception();
+            throw e;
         }
     }
 
